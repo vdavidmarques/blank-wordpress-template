@@ -20,6 +20,12 @@ To run this project, make sure you have the following:
 - **MySQL**: Database for WordPress
 
 ## 📦 Installation
+### 0. Create those folders
+
+````bash
+mkdir cms
+mkdir 
+````
 
 ### 1. Clone the Repository
 ```bash
@@ -40,6 +46,7 @@ cd backend
 composer install
 cp .env.example .env
 php artisan key:generate
+php artisan serve
 
 ```
 ### 4. Set Up ReactJS (Frontend)
