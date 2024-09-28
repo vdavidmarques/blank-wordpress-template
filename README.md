@@ -86,4 +86,8 @@ Configure tailwind.config.js to suit your project's needs.
 Start Laravel using:
 
 ````bash
+cd backend
 php artisan serve
+
+cd frontend
+npm start
