@@ -91,3 +91,9 @@ php artisan serve
 
 cd frontend
 npm start
+
+````
+### 9. Wordpress configs
+- Active the theme and all the presets plugins
+- Urls examples at rest api
+/index.php?rest_route=/wp/v2/pages&slug=homepage
